@@ -1,18 +1,18 @@
-# 💳 Payment Transaction Logging & Monitoring System
+# Payment Transaction Logging & Monitoring System
 
-**📅 Project**
-**📍 Type:** Personal Project 
-**🛠️ Technologies Used:** SQL Server, T-SQL, Python (Faker), Power BI
+**Project**
+**Type:** Personal Project 
+**Technologies Used:** SQL Server, T-SQL, Python (Faker), Power BI
 
 ---
 
-## 🧾 Project Overview
+## Project Overview
 
 This project is a robust SQL-based system designed to **log, monitor, and analyze electronic fund transfers (EFTs)** across multiple payment channels including **POS terminals, ATMs, and online gateways**. It simulates a real-world transaction environment to detect fraud, monitor system performance, and visualize transaction trends using **Power BI**.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 - **Database Design:** Built a relational database schema to track transactions, merchants, terminals, customers, payment methods, and error logs.
 - **Data Simulation:** Used Python's `Faker` library to generate realistic transactional and customer data.
@@ -26,7 +26,7 @@ This project is a robust SQL-based system designed to **log, monitor, and analyz
 
 ---
 
-## 🗃️ Database Schema
+## Database Schema
 
 The system includes the following tables:
 - `Customers`, `Merchants`, `Terminals`, `Transactions`, `TransactionStatus`, `ResponseCodes`, `PaymentMethods`, `ErrorLogs`, and more.
@@ -35,7 +35,7 @@ The system includes the following tables:
 
 ---
 
-## 📊 Sample Analytics & Reports
+## Sample Analytics & Reports
 
 - **Transaction Success Rate** by month and payment method.
 - **Top Merchants** by revenue and failed transactions.
@@ -46,7 +46,7 @@ The system includes the following tables:
 
 ---
 
-## 🧠 Fraud Detection Logic
+## Fraud Detection Logic
 
 The `DetectPotentialFraud` procedure flags:
 1. **Rapid Transactions** within short time intervals.
